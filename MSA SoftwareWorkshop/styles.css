@@ -47,7 +47,7 @@ p{
 
   table,
   td {
-    border: solid 1px black;
+    border: solid 1px white;
     text-align: center;
   } /*you can style multiple things by separating by a comma e.g. table,td
     here we are changing the styling of the table and the data in the table
