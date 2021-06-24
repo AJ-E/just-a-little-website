@@ -1,0 +1,76 @@
+p{
+    color:red
+    /*color:rgb(255,125, 55)*/ /*you can colour using rgb scale as well regular 
+    words for colors like "red" above*/
+}
+
+
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+  } /*this changed the global styling i.e. styling for the whole html file*/
+
+
+  h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  } /*this changed the styling of the just the header. Textalign aligned the header to be
+    centred in the site. This header styling overwrote the global styling because...*/
+    /*this css code will be overrun by the inline code in the html file.*/
+    /*overriding priority goes by Inline > Id > Class > Element > Global*/
+
+
+  body {
+    background-color: lightblue;
+  }
+
+
+  .class-example-1 {
+    color: blue;
+  }
+
+
+  #id-example-1 {
+    color: green;
+  }
+  
+  p#id-example-1.class-example-1 {
+    color: yellow;
+  } /*this is very specific because it has both the id and class included. Therefore, it will update
+   and override the single id and class if there is a combo id and class*/
+
+    .class-example-2 {
+    text-align: center;
+  }
+
+
+  table,
+  td {
+    border: solid 1px black;
+    text-align: center;
+  } /*you can style multiple things by separating by a comma e.g. table,td
+    here we are changing the styling of the table and the data in the table
+    we are adding a border that is solid, 1px thick and black
+    we also centre the data in the table and cell/data by using text-align*/
+
+
+.div-class {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  padding: 15px;
+  border: dashed 10px black;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: forestgreen;
+    }
+  }/*try changing the size of the window manually, it will change colour once you get to 800px wide*/
+  /*This is a media query. There is a lot that you can do with media queries
+  
+
+  
+    
