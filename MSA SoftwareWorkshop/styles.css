@@ -69,8 +69,12 @@ p{
       background-color: forestgreen;
     }
   }/*try changing the size of the window manually, it will change colour once you get to 800px wide*/
-  /*This is a media query. There is a lot that you can do with media queries
+  /*This is a media query. There is a lot that you can do with media queries*/
   
 
-  
+   td {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  } 
     
